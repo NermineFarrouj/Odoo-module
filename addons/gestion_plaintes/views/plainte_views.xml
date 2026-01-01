@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Vue liste -->
+    <record id="view_plainte_tree" model="ir.ui.view">
+        <field name="name">gestion.plainte.tree</field>
+        <field name="model">gestion.plainte</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="reference"/>
+                <field name="employee_id"/>
+                <field name="type_plainte"/>
+                <field name="date_plainte"/>
+                <field name="statut"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vue formulaire -->
+    <record id="view_plainte_form" model="ir.ui.view">
+        <field name="name">gestion.plainte.form</field>
+        <field name="model">gestion.plainte</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="reference"/>
+                        <field name="employee_id"/>
+                        <field name="type_plainte"/>
+                        <field name="date_plainte"/>
+                        <field name="statut"/>
+                    </group>
+                    <group>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_plainte" model="ir.actions.act_window">
+        <field name="name">Plaintes internes</field>
+        <field name="res_model">gestion.plainte</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu -->
+    <menuitem id="menu_plainte_root" name="Plaintes"/>
+    <menuitem id="menu_plainte" name="Gestion des plaintes"
+              parent="menu_plainte_root"
+              action="action_plainte"/>
+
+</odoo>
