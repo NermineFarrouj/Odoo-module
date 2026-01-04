@@ -21,7 +21,7 @@ Ce module s’intègre directement avec le module Human Resources (HR) d’Odoo,
  °Langages : Python, XML
 <h2>Interface</h2>
  --Installation--
- <img width="913" height="661" alt="image" src="https://github.com/user-attachments/assets/035e9f24-1d34-44c7-9ef4-1e8067f9dc57" />
+ <img width="518" height="501" alt="image" src="https://github.com/user-attachments/assets/035e9f24-1d34-44c7-9ef4-1e8067f9dc57" />
 
  --Creation de plainte--
  <img width="518" height="501" alt="image" src="https://github.com/user-attachments/assets/0a16a7d3-ef43-45a0-bfc6-6b64101b37f5" />
