@@ -1,7 +1,7 @@
 <h1>Gestion des plaintes internes</h1>
  <h2>Description</h2>
-Le module Gestion des Plaintes Internes est un module personnalisé développé pour l’ERP Odoo 17, destiné à faciliter la gestion, le suivi et le traitement des plaintes internes des employés au sein d’une organisation.
-Ce module s’intègre directement avec le module Human Resources (HR) d’Odoo, assurant ainsi une gestion cohérente des données liées aux employés.
+Le module Gestion des Plaintes Internes est un module personnalisé développé pour l’ERP Odoo 17, destiné à faciliter le suivi et le traitement des plaintes internes des employés au sein d’une organisation.
+Ce module s’intègre directement avec le module Human Resources (HR) d’Odoo, assurant une gestion cohérente des données liées aux employés.
 <h2>Fonctionnalités principales</h2>
  °Création et gestion des plaintes internes des employés.
  °Association de chaque plainte à un employé existant.
